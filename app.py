@@ -4,7 +4,7 @@ class Air_Traffic_Controller:
     self.name = name
     self.phoneNumber = PhoneNumber
     self.email = Email
-    self.password = Password #this needs to be hidden
+    self._password = Password #this needs to be hidden
     self.airport = Airport
 
   #For the air traffic controller to be able to see all the flights 
