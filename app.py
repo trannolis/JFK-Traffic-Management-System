@@ -1,5 +1,5 @@
-"""" This class represents the person who will be handling the flight schedule management and assignment """
 class Air_Traffic_Controller:
+  """" This class represents the person who will be handling the flight schedule management and assignment """
   def __init___(name, PhoneNumber, Email, Password, Airport):
     self.name = name
     self.phoneNumber = PhoneNumber
@@ -7,21 +7,21 @@ class Air_Traffic_Controller:
     self.password = Password #this needs to be hidden
     self.airport = Airport
 
-  """For the air traffic controller to be able to see all the flights""" 
   def getFlights(self):
+    """For the air traffic controller to be able to see all the flights""" 
     return ...
-  """To see the current flight status of a particular flight""" 
   def requestFlightUpdate(self, flightid):
+    """To see the current flight status of a particular flight""" 
     return ...
-  """To authorize landing on the runway for a particular flight"""
   def authorizeLanding(self, flightid,location):
+    """To authorize landing on the runway for a particular flight"""
     return ...
-  """To authorize takeoff on the runway for a particular flight"""
   def authorizeTakeOff(self, flightid,location):
+    """To authorize takeoff on the runway for a particular flight"""
     return ...
 
-"""This class represents the pilots who will be communicating with the Air Traffic Controller"""
 class Pilot:
+  """This class represents the pilots who will be communicating with the Air Traffic Controller"""
   def __init___(Name, PhoneNumber, Email, Password, CanLand, CanTakeOff):
     self.Name = Name
     self.PhoneNumber = PhoneNumber
@@ -30,14 +30,14 @@ class Pilot:
     self.canLand = False
     self.CanTakeOff = False
   
-  """For the pilot to be able to make any changes mid-flight if necessary"""
   def updateFlightInfo(flightid,location,time):
+    """For the pilot to be able to make any changes mid-flight if necessary"""
     return ...
-  """for the pilot to indicate that the plane has landed""" 
   def land(self, flightId):
+    """for the pilot to indicate that the plane has landed""" 
     return ... 
-  """for the pilot to indicate that the plane has taken off"""
   def takeOff(self, flightid):
+    """for the pilot to indicate that the plane has taken off"""
     return ...
     
 class Flight:
