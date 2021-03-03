@@ -5,9 +5,9 @@ MERN Stack: MongoDB, Express(.js), React(.js), and Node(.js)
 
 To run React server:
 1. cd client directory
-2. <mark> npm install </mark>
-3. <mark> npm start </mark> starts the development server
+2. run: npm install
+3. run: npm start
 
 If you get a react hook error:
 1. go to root directory (client)
-2. run <mark> yarn add @material-ui-core </mark> 
+2. run: yarn add @material-ui-core
