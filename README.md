@@ -3,7 +3,7 @@ Senior Design Project
 
 MERN Stack: MongoDB, Express(.js), React(.js), and Node(.js)
 
-To run React server:
+To run React front-end:
 1. Run: cd JFK-Traffic-Management-System 
 2. run: npm install
 3. run: npm start
