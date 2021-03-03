@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('getflights:server');
+var debug = require('debug')('makeschedule-api:server');
 var http = require('http');
 
 /**
